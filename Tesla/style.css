@@ -1,0 +1,172 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.banner {
+  background-image: radial-gradient(
+    54.97% 272.54% at 27.36% -134.72%,
+    rgba(108, 148, 255, 0.92) 0,
+    rgba(0, 0, 0, 0.92) 100%
+  );
+  height: 20px;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-text {
+  display: flex;
+  align-items: center;
+}
+
+
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 60px;
+  padding: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+nav svg {
+  width: 200px;
+  padding: 0 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav ul li {
+  background-color: lightslategray;
+  margin: 30px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+section.section-one {
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.section_one h1 {
+  margin-top: 115px;
+  opacity: 0.98;
+  width: 100%;
+  padding: 0 25px;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+.video_container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  z-index: -1;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+}
+.content h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.content h2 {
+  color: white;
+}
+
+.content h3 {
+  margin-top: 0px;
+  color: white;
+  margin-bottom: 700px;
+}
+
+.info-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white
+}
+
+.tcl-badge-speedometer__needle {
+  position: absolute;
+}
+
+.speedometer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speedometer-wrapper span {
+  font-size: 30px;
+}
+
+.range {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.range span.range-number {
+  font-size: 30px;
+}
+
+.motor-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.AWD {
+  font-size: 30px;
+}
